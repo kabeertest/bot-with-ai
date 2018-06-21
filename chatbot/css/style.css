@@ -1,0 +1,403 @@
+body {
+    font-size: 24px;
+  }
+  form div {
+      margin-left: 50px ;
+      text-align: left;
+      width: auto; 
+  }
+  div * {
+      transition: all 500ms ease 0s;
+  }
+  
+  
+  .form-horizontal input {
+      width: 100px;
+      margin-right: 0;
+  } 
+  .form-horizontal.open input { 
+      width:250px; 
+      margin-right: 0;
+  }
+  
+  .myopen{    
+    width:500px;    
+      overflow:hidden;      
+      -webkit-transition: width 1s;
+      -moz-transition: width 1s;
+      -ms-transition: width 1s;
+      -o-transition: width 1s;
+      transition: width 1s;
+    
+  }
+
+  #custom-search-input {
+    background: #e8e6e7 none repeat scroll 0 0;
+    margin: 0;
+    padding: 10px;
+  }
+     #custom-search-input .search-query {
+     background: #fff none repeat scroll 0 0 !important;
+     border-radius: 4px;
+     height: 33px;
+     margin-bottom: 0;
+     padding-left: 7px;
+     padding-right: 7px;
+     }
+     #custom-search-input button {
+     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+     border: 0 none;
+     border-radius: 3px;
+     color: #666666;
+     left: auto;
+     margin-bottom: 0;
+     margin-top: 7px;
+     padding: 2px 5px;
+     position: absolute;
+     right: 0;
+     z-index: 9999;
+     }
+     .search-query:focus + button {
+     z-index: 3;   
+     }
+     .all_conversation button {
+     background: #f5f3f3 none repeat scroll 0 0;
+     border: 1px solid #dddddd;
+     height: 38px;
+     text-align: left;
+     width: 100%;
+     }
+     .all_conversation i {
+     background: #e9e7e8 none repeat scroll 0 0;
+     border-radius: 100px;
+     color: #636363;
+     font-size: 17px;
+     height: 30px;
+     line-height: 30px;
+     text-align: center;
+     width: 30px;
+     }
+     .all_conversation .caret {
+     bottom: 0;
+     margin: auto;
+     position: absolute;
+     right: 15px;
+     top: 0;
+     }
+     .all_conversation .dropdown-menu {
+     background: #f5f3f3 none repeat scroll 0 0;
+     border-radius: 0;
+     margin-top: 0;
+     padding: 0;
+     width: 100%;
+     }
+     .all_conversation ul li {
+     border-bottom: 1px solid #dddddd;
+     line-height: normal;
+     width: 100%;
+     }
+     .all_conversation ul li a:hover {
+     background: #dddddd none repeat scroll 0 0;
+     color:#333;
+     }
+     .all_conversation ul li a {
+    color: #333;
+    line-height: 30px;
+    padding: 3px 20px;
+  }
+     .member_list .chat-body {
+     margin-left: 47px;
+     margin-top: 0;
+     }
+     .top_nav {
+     overflow: visible;
+     }
+     .member_list .contact_sec {
+     margin-top: 3px;
+     }
+     .member_list li {
+     padding: 6px;
+     }
+     .member_list ul {
+     border: 1px solid #dddddd;
+     }
+     .chat-img img {
+     height: 34px;
+     width: 34px;
+     }
+     .member_list li {
+     border-bottom: 1px solid #dddddd;
+     padding: 6px;
+     }
+     .member_list li:last-child {
+     border-bottom:none;
+     }
+     .member_list {
+     height: 380px;
+     overflow-x: hidden;
+     overflow-y: auto;
+     }
+     .sub_menu_ {
+    background: #e8e6e7 none repeat scroll 0 0;
+    left: 100%;
+    max-width: 233px;
+    position: absolute;
+    width: 100%;
+  }
+  .sub_menu_ {
+    background: #f5f3f3 none repeat scroll 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    display: none;
+    left: 100%;
+    margin-left: 0;
+    max-width: 233px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .all_conversation ul li:hover .sub_menu_ {
+    display: block;
+  }
+  .new_message_head button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+  }
+  .new_message_head {
+    background: #f5f3f3 none repeat scroll 0 0;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 18px 10px;
+    width: 100%;
+  }
+  .message_section {
+    border: 1px solid #dddddd;
+        margin-top: 15px;
+    
+  }
+  .chat_area {
+    float: left;
+    height: 84%;
+  
+  
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+  }
+  .chat_area li {
+    padding: 14px 14px 0;
+  }
+  .chat_area li .chat-img1 img {  
+    height: 70px;
+    width: 80px;
+  }
+  .chat_area .chat-body1 {
+    margin-left: 50px;
+  }
+  .chat-body1 p {
+    background: #fbf9fa none repeat scroll 0 0;
+    padding: 10px;
+  }
+  .chat_area .admin_chat .chat-body1 {
+    margin-left: 0;
+    margin-right: 50px;
+  }
+  .chat_area li:last-child {
+    padding-bottom: 10px;
+  }
+  .message_write {
+    background: #f5f3f3 none repeat scroll 0 0;
+    float: left;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .message_write textarea.form-control {
+    height: 30px;
+    
+  }
+  .chat_bottom {
+    float: left;
+    margin-top: 13px;
+    width: 100%;
+  }
+  .upload_btn {
+    color: #777777;
+  }
+  .sub_menu_ > li a, .sub_menu_ > li {
+    float: left;
+    width:100%;
+  }
+  .member_list li:hover {
+    background: #428bca none repeat scroll 0 0;
+    color: #fff;
+    cursor:pointer;
+  }
+  .custom-warning{
+          background-color: rgba(255, 165, 0, 0.49) !important;
+      border-color: #bcdff1;
+      color: rgba(165, 42, 42, 0.8);
+  }
+  
+   
+  .alert{
+         margin: 5px !important;
+      text-align: center;
+      padding: 0;
+      padding: 2px 0px;
+  }
+  
+  .card-main{
+        margin: 12px 0px;
+  }
+  
+  .btn-top{
+        margin-top: 16px;
+  }
+  
+  
+  .text-center{
+    text-align: center !important;
+  }
+  .card-block{
+    padding: 1rem !important;
+  }
+  
+  .pullright{
+    float: right !important;
+  }
+  
+  .pulleft{
+    float: left ;
+  }
+  
+  
+  
+  
+  /*login style starts*/
+  
+  .form-signin
+  {
+      max-width: 330px;
+      padding: 15px;
+      margin: 0 auto;
+  }
+  .form-signin .form-signin-heading, .form-signin .checkbox
+  {
+      margin-bottom: 10px;
+  }
+  .form-signin .checkbox
+  {
+      font-weight: normal;
+  }
+  .form-signin .form-control
+  {
+      position: relative;
+      font-size: 16px;
+      height: auto;
+      padding: 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .form-signin .form-control:focus
+  {
+      z-index: 2;
+  }
+  .form-signin input[type="text"]
+  {
+      margin-bottom: -1px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+  }
+  .form-signin input[type="password"]
+  {
+      margin-bottom: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+  }
+  .account-wall
+  {
+      margin-top: 20px;
+      padding: 40px 0px 20px 0px;
+      background-color: #f7f7f7;
+      -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  .login-title
+  {
+      color: #555;
+      font-size: 18px;
+      font-weight: 400;
+      display: block;
+  }
+  .profile-img
+  {
+      width: 96px;
+      height: 96px;
+      margin: 0 auto 10px;
+      display: block;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+  }
+  .need-help
+  {
+      margin-top: 10px;
+  }
+  .new-account
+  {
+      display: block;
+      margin-top: 10px;
+  }
+  .login-pad{
+        padding: 20%;  
+  }
+
+  .botIMG{
+    height: 59%;
+    margin: 1%;
+    padding: 12%;
+    margin-top: 21px;
+  }
+  /*login style ends*/
+
+  /* Generated by http://css.spritegen.com CSS Sprite Generator */
+ 
+.spritea, .spritee, .spritef, .spritel, .spritem, 
+.spriteno, .spriteo, .sprites
+{ display: inline-block; background: url('/img/download.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.spritea { background-position: -0px -0px; width: 1920px; height: 1080px; }
+.spritee { background-position: -1920px -0px; width: 1920px; height: 1080px; }
+.spritef { background-position: -0px -1080px; width: 1920px; height: 1080px; }
+.spritel { background-position: -1920px -1080px; width: 1920px; height: 1080px; }
+.spritem { background-position: -0px -2160px; width: 1920px; height: 1080px; }
+.spriteno { background-position: -1920px -2160px; width: 1920px; height: 1080px; }
+.spriteo { background-position: -0px -3240px; width: 1920px; height: 1080px; }
+.sprites { background-position: -1920px -3240px; width: 1920px; height: 1080px; }
+
+
+
+/*jquery sprite */
+
+#sprite {
+   /* background-image:url(sprites/arcade.png);*/
+   background-image:url('/img/download.png');
+}
+
+
+/*css*/
+ 
+/*css*/
+.dress{
+  width: 45.56%;
+  margin-top: -179px;
+  z-index: 1;
+  position: absolute;
+  left: 351px;
+}
+
+
+
